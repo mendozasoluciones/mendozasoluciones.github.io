@@ -1,64 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Paralax</title>
+  <title>Realidad virtual</title>
   <base href="https://mendozasoluciones.github.io/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="google" content="notranslate" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="Arnulfo Mendoza" />
   <link rel="icon" type="image/x-icon" href="https://mendozasoluciones.github.io/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-  
-  <script src="https://mendozasoluciones.github.io/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-<link rel="stylesheet" href="https://mendozasoluciones.github.io/styles.6dd263a6818d8f317f9d.css"></head>
+<link rel="stylesheet" href="https://mendozasoluciones.github.io/styles.11642ab907086a0c5790.css"></head>
 <body>
   <app-root></app-root>
-  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        // navigation click actions 
-        $('.scroll-link').on('click', function(event){
-            event.preventDefault();
-            var sectionID = $(this).attr("data-id");
-            scrollToID('#' + sectionID, 750);
-        });
-        // scroll to top action
-        $('.scroll-top').on('click', function(event) {
-            event.preventDefault();
-            $('html, body').animate({scrollTop:0}, 'slow');         
-        });
-        // mobile nav toggle
-        $('#nav-toggle').on('click', function (event) {
-            event.preventDefault();
-            $('#main-nav').toggleClass("open");
-        });
-    });
-    // scroll function
-    function scrollToID(id, speed){
-        var offSet = 50;
-        var targetOffset = $(id).offset().top - offSet;
-        var mainNav = $('#main-nav');
-        $('html,body').animate({scrollTop:targetOffset}, speed);
-        if (mainNav.hasClass("open")) {
-            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-            mainNav.removeClass("open");
-        }
-    }
-    if (typeof console === "undefined") {
-        console = {
-            log: function() { }
-        };
-    }
-    </script>
-<script src="https://mendozasoluciones.github.io/runtime-es2015.b2aca5be9e7b8cc1a1b4.js" type="module"></script>
-<script src="https://mendozasoluciones.github.io/polyfills-es2015.707fe33a73ba6b994c2b.js" type="module"></script>
-<script src="https://mendozasoluciones.github.io/runtime-es5.a6586930f507951256e4.js" nomodule defer></script>
-<script src="https://mendozasoluciones.github.io/polyfills-es5.d5a82e511a2b9780e4f6.js" nomodule defer></script>
-<script src="https://mendozasoluciones.github.io/scripts.71898f9ac0462d468e00.js" defer></script>
-<script src="https://mendozasoluciones.github.io/vendor-es2015.3ec14ae6123341423afc.js" type="module"></script>
-<script src="https://mendozasoluciones.github.io/main-es2015.77ea4b35958db538a05a.js" type="module"></script>
-<script src="https://mendozasoluciones.github.io/vendor-es5.32ea6e84d5775cae5a35.js" nomodule defer></script>
-<script src="https://mendozasoluciones.github.io/main-es5.59b9ce216913cb4b4efe.js" nomodule defer></script></body>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/runtime.8da247160d2a5b1d79da.js"></script>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/es2015-polyfills.358ed1827c991dd2afb0.js" nomodule></script>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/polyfills.295310f1ef14e38c35ef.js"></script>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/scripts.7b6bec4ddc3a9c0affa7.js"></script>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/vendor.59148cd8407505f857d2.js"></script>
+<script type="text/javascript" src="https://mendozasoluciones.github.io/main.c2197e8cbcdcaf68ec4f.js"></script></body>
 </html>
