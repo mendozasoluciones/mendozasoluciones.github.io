@@ -1,0 +1,84 @@
+[
+        {
+            Historia: [
+                {
+                    id: 'khdsakdgvggasd',
+                    position: 0,
+                    title: 'AActividad 1',
+                    uri: 'car',
+                    Difficulty: [
+                        {
+                            id: 'aujhiuadiysd',
+                            title: 'easy',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhas',
+                                value: 3,
+                                description: 'Desbes hacer tres puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiyse',
+                            title: 'medium',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhat',
+                                value: 5,
+                                description: 'Desbes hacer cinco puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiysf',
+                            title: 'hard',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhau',
+                                value: 7,
+                                description: 'Desbes hacer siete puntos para superar esta prueba.'
+                            }
+                        }
+                    ]
+                }
+            ],
+            modoLibre: [
+                {
+                    id: 'khdsakdgvggasd',
+                    position: 0,
+                    title: 'Mundo abiertoo',
+                    uri: 'car',
+                    Difficulty: [
+                        {
+                            id: 'aujhiuadiysd',
+                            title: 'easy',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhas',
+                                value: 3,
+                                description: 'Desbes hacer tres puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiyse',
+                            title: 'medium',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhat',
+                                value: 5,
+                                description: 'Desbes hacer cinco puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiysf',
+                            title: 'hard',
+                            uri: 'level-up',
+                            Rules: {
+                                id: 'hjjhsabdjhau',
+                                value: 7,
+                                description: 'Desbes hacer siete puntos para superar esta prueba.'
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
