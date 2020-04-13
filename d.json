@@ -1,0 +1,95 @@
+[
+        //secuencia de modos de juego
+        {
+            Historia: [
+                //secuencia de actividades
+                {
+                    id: 'khdsakdgvggasd',
+                    position: 0,
+                    title: 'AActividad 1',
+                    uri: 'car',
+                    // lista de dificultades
+                    Difficulty: [
+                        {
+                            id: 'aujhiuadiysd',
+                            title: 'easy',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhas',
+                                value: 3,
+                                description: 'Desbes hacer tres puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiyse',
+                            title: 'medium',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhat',
+                                value: 5,
+                                description: 'Desbes hacer cinco puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiysf',
+                            title: 'hard',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhau',
+                                value: 7,
+                                description: 'Desbes hacer siete puntos para superar esta prueba.'
+                            }
+                        }
+                    ]
+                }
+            ],
+            modoLibre: [
+                //secuencia de actividades
+                {
+                    id: 'khdsakdgvggasd',
+                    position: 0,
+                    title: 'Mundo abiertoo',
+                    uri: 'car',
+                    // lista de dificultades
+                    Difficulty: [
+                        {
+                            id: 'aujhiuadiysd',
+                            title: 'easy',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhas',
+                                value: 3,
+                                description: 'Desbes hacer tres puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiyse',
+                            title: 'medium',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhat',
+                                value: 5,
+                                description: 'Desbes hacer cinco puntos para superar esta prueba.'
+                            }
+                        },
+                        {
+                            id: 'aujhiuadiysf',
+                            title: 'hard',
+                            uri: 'level-up',
+                            Rules: {
+                                // tres puntos para pasar
+                                id: 'hjjhsabdjhau',
+                                value: 7,
+                                description: 'Desbes hacer siete puntos para superar esta prueba.'
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
